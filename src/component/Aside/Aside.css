@@ -1,0 +1,61 @@
+.aside {
+  width: 74px;
+  min-height: 878px;
+  position: fixed;
+  z-index: 999;
+  transition: all 0.4s ease;
+  border-right: 0.1vh solid #8e795e;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  left: calc(0px);
+  top: 0;
+  background: #1a1a1a;
+}
+.aside:hover {
+  width: 94px;
+  right: calc(1200px - 94px);
+}
+.logo {
+  margin-top: 22px;
+  margin-right: 4px;
+  width: 30px;
+  height: 30px;
+  background: url("./menu_logo.svg") no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.logo:hover {
+  opacity: 0.7;
+}
+.title {
+  margin-top: 2.5px;
+  margin-right: 6px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  color: #c3a47d;
+  cursor: pointer;
+}
+.smm {
+  margin-bottom: 24px;
+  margin-right: 5px;
+}
+.facebook {
+  width: 13px;
+  height: 13px;
+  background: url("./facebook.svg") no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.instagram {
+  width: 13px;
+  height: 13px;
+  background: url("./instagram.svg") no-repeat;
+  background-size: contain;
+  margin-top: 0.8vh;
+  cursor: pointer;
+}

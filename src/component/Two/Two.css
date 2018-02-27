@@ -1,0 +1,48 @@
+.two {
+margin: 0 auto;
+width: 1280px;
+height: 879px;
+position: relative;
+background: #1a1a1a url("./girl.jpg") 74px 0% no-repeat;
+background-size: contain;
+display: flex;
+position: relative;
+align-items: center;
+overflow: hidden; }
+.block {
+display: flex;
+float: left;
+flex-direction: column;
+align-items: center;
+margin-left: 575px; }
+.name {
+margin-top: 15px;
+font-size: 84px;
+font-family: 'Pinyon Script';
+font-weight: 400;
+color: #c3a47d;
+line-height: 8vh;
+margin-bottom: 15px}
+.subtitle {
+width: 480px;
+text-align: center;
+color: #f4f4f4;
+font-size: 12px;
+font-family: 'Josefin Sans';
+text-transform: uppercase;
+letter-spacing: 1px;
+line-height: 21px;}
+.img {
+width: 500px;
+height: 290px;
+background: url("./packaging.jpg") 50% 50% no-repeat;
+background-size: contain; }
+.more {
+font-size: 10px;
+font-family: 'Josefin Sans';
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-top: 0.4vh;
+color: #f4f4f4;
+border-bottom: 1px solid #f4f4f4;
+padding-bottom: 6px; }

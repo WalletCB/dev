@@ -1,0 +1,122 @@
+.active{
+  display: none;
+}
+.menu {
+  position: fixed;
+  z-index: 888;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 671px;
+  background: #fafafa;
+  padding-left: 154px;
+  display: flex;
+  flex-direction: column;
+}
+.li {
+  list-style: none;
+  margin-bottom: 31px;
+}
+
+.li a{
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    color: #1a1a1a;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 0px;
+  }
+
+.li a::before {
+    content: " ";
+    display: block;
+    width: auto;
+    transition: all 0.3s linear;
+    height: 4px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #c3a47d;
+    position: absolute;
+    top: calc(50% + 2.5px);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+  }
+
+.li a:hover:before {
+    transform: scaleX(1);
+  }
+.ul{
+  margin-top: 182px;
+  padding-left: 0px;
+}
+.xmark {
+width: 33px;
+height: 33px;
+background: url("./xmark.svg") 50% 50% no-repeat;
+background-size: contain;
+position: absolute;
+top: 51px;
+right: 84px;
+z-index: 3;
+cursor: pointer;
+transition: all 0.4s ease-in; }
+.xmark:hover {
+transform: rotate(90deg); }
+
+.block {
+display: flex;
+position: relative; }
+
+.block::before {
+content: ' ';
+position: absolute;
+width: 2vh;
+height: 4vh;
+background: #fafafa;
+top: 0;
+right: 0;
+z-index: 1; }
+.subtitle {
+font-size: 15px;
+font-family: 'Josefin Sans';
+color: #1a1a1a;
+text-transform: uppercase;
+margin: 25px 0px 298px 0px;
+letter-spacing: 3px;
+margin-left: 5px;}
+.footer {
+margin-left: 5px;
+padding-bottom: 2.2vh;
+display: flex;
+justify-content: space-between;
+font-size: 11px;
+font-family: 'Josefin Sans';
+color: #909090; }
+.bred {
+position: relative;
+margin-right: 2vh;
+cursor: pointer; }
+.bred::before {
+content: ' ';
+width: 3px;
+height: 3px;
+border-radius: 50%;
+background: #909090;
+position: absolute;
+top: calc( 50% - 1.5px);
+right: -1.5vh; }
+.logo {
+position: relative;
+margin-right: 110px;
+text-transform: uppercase;}
+.logo::before {
+content: ' ';
+width: 15px;
+height: 15px;
+position: absolute;
+top: calc(50% - 7.5px);
+right: -2.5vh;
+background: url("./menu__footer-logo.svg") 50% 50% no-repeat;
+background-size: contain; }
